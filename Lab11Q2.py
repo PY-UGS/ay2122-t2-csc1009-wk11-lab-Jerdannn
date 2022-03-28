@@ -2,9 +2,9 @@ class ClockTime:
     # Creates an instance that takes in
     # hours, minutes and seconds
     def __init__(self):
-        self.hours = None
-        self.minutes = None
-        self.seconds = None
+        self.hours = 0
+        self.minutes = 0
+        self.seconds = 0
 
     def setHours(self, h):
         self.hours = h
